@@ -1,0 +1,27 @@
+.rgb-light {
+    background: linear-gradient(90deg, red, green, blue);
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+@keyframes rgbChange {
+    0% { background-color: red; }
+    33% { background-color: green; }
+    66% { background-color: blue; }
+    100% { background-color: red; }
+}
+
+.dynamic-rgb-light {
+    animation: rgbChange 5s infinite;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
+#js-rgb-light {
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 10px;
+}
